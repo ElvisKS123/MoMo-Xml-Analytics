@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <message>
+        <id>1</id>
+        <date>2023-05-01 08:15:22</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 500.00 from JOHN DOE (0244123456) on 01/05/23 at 08:15 AM. Reference: TX123456789. Fee charged: GHS 0.00. Available Balance: GHS 1,250.00</content>
+    </message>
+    <message>
+        <id>2</id>
+        <date>2023-05-02 12:30:45</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 200.00 to JANE SMITH (0244789012) on 02/05/23 at 12:30 PM. Reference: TX123456790. Fee charged: GHS 2.00. Available Balance: GHS 1,048.00</content>
+    </message>
+    <message>
+        <id>3</id>
+        <date>2023-05-03 15:45:10</date>
+        <sender>MTN MOMO</sender>
+        <content>You have paid GHS 150.00 to ECG PREPAID (0302123456) on 03/05/23 at 03:45 PM. Reference: TX123456791. Fee charged: GHS 1.50. Available Balance: GHS 896.50</content>
+    </message>
+    <message>
+        <id>4</id>
+        <date>2023-05-04 09:20:33</date>
+        <sender>MTN MOMO</sender>
+        <content>You have withdrawn GHS 300.00 from AGENT KOFI (0244555666) on 04/05/23 at 09:20 AM. Reference: TX123456792. Fee charged: GHS 3.00. Available Balance: GHS 593.50</content>
+    </message>
+    <message>
+        <id>5</id>
+        <date>2023-05-05 17:05:27</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 1000.00 from SALARY PAYMENT (0302987654) on 05/05/23 at 05:05 PM. Reference: TX123456793. Fee charged: GHS 0.00. Available Balance: GHS 1,593.50</content>
+    </message>
+    <message>
+        <id>6</id>
+        <date>2023-05-06 10:12:55</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 50.00 to AIRTIME PURCHASE (0244123456) on 06/05/23 at 10:12 AM. Reference: TX123456794. Fee charged: GHS 0.50. Available Balance: GHS 1,543.00</content>
+    </message>
+    <message>
+        <id>7</id>
+        <date>2023-05-07 14:25:18</date>
+        <sender>MTN MOMO</sender>
+        <content>You have paid GHS 250.00 to WATER BILL (0302123456) on 07/05/23 at 02:25 PM. Reference: TX123456795. Fee charged: GHS 2.50. Available Balance: GHS 1,290.50</content>
+    </message>
+    <message>
+        <id>8</id>
+        <date>2023-05-08 19:30:42</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 100.00 to MARY JOHNSON (0244789012) on 08/05/23 at 07:30 PM. Reference: TX123456796. Fee charged: GHS 1.00. Available Balance: GHS 1,189.50</content>
+    </message>
+    <message>
+        <id>9</id>
+        <date>2023-05-09 11:40:15</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 300.00 from BUSINESS PAYMENT (0244555666) on 09/05/23 at 11:40 AM. Reference: TX123456797. Fee charged: GHS 0.00. Available Balance: GHS 1,489.50</content>
+    </message>
+    <message>
+        <id>10</id>
+        <date>2023-05-10 16:55:37</date>
+        <sender>MTN MOMO</sender>
+        <content>You have paid GHS 75.00 to DSTV SUBSCRIPTION (0302987654) on 10/05/23 at 04:55 PM. Reference: TX123456798. Fee charged: GHS 0.75. Available Balance: GHS 1,413.75</content>
+    </message>
+    <message>
+        <id>11</id>
+        <date>2023-05-11 08:05:22</date>
+        <sender>MTN MOMO</sender>
+        <content>You have withdrawn GHS 400.00 from AGENT SARAH (0244123456) on 11/05/23 at 08:05 AM. Reference: TX123456799. Fee charged: GHS 4.00. Available Balance: GHS 1,009.75</content>
+    </message>
+    <message>
+        <id>12</id>
+        <date>2023-05-12 13:15:48</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 150.00 to SCHOOL FEES (0244789012) on 12/05/23 at 01:15 PM. Reference: TX123456800. Fee charged: GHS 1.50. Available Balance: GHS 858.25</content>
+    </message>
+    <message>
+        <id>13</id>
+        <date>2023-05-13 18:20:33</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 200.00 from GIFT PAYMENT (0244555666) on 13/05/23 at 06:20 PM. Reference: TX123456801. Fee charged: GHS 0.00. Available Balance: GHS 1,058.25</content>
+    </message>
+    <message>
+        <id>14</id>
+        <date>2023-05-14 09:45:10</date>
+        <sender>MTN MOMO</sender>
+        <content>You have paid GHS 120.00 to INTERNET BUNDLE (0302123456) on 14/05/23 at 09:45 AM. Reference: TX123456802. Fee charged: GHS 1.20. Available Balance: GHS 937.05</content>
+    </message>
+    <message>
+        <id>15</id>
+        <date>2023-05-15 14:30:55</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 300.00 to RENT PAYMENT (0302987654) on 15/05/23 at 02:30 PM. Reference: TX123456803. Fee charged: GHS 3.00. Available Balance: GHS 634.05</content>
+    </message>
+    <message>
+        <id>16</id>
+        <date>2023-05-16 10:55:27</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 500.00 from BUSINESS INCOME (0244123456) on 16/05/23 at 10:55 AM. Reference: TX123456804. Fee charged: GHS 0.00. Available Balance: GHS 1,134.05</content>
+    </message>
+    <message>
+        <id>17</id>
+        <date>2023-05-17 16:40:42</date>
+        <sender>MTN MOMO</sender>
+        <content>You have withdrawn GHS 200.00 from AGENT PETER (0244789012) on 17/05/23 at 04:40 PM. Reference: TX123456805. Fee charged: GHS 2.00. Available Balance: GHS 932.05</content>
+    </message>
+    <message>
+        <id>18</id>
+        <date>2023-05-18 11:25:15</date>
+        <sender>MTN MOMO</sender>
+        <content>You have paid GHS 80.00 to ELECTRICITY BILL (0302123456) on 18/05/23 at 11:25 AM. Reference: TX123456806. Fee charged: GHS 0.80. Available Balance: GHS 851.25</content>
+    </message>
+    <message>
+        <id>19</id>
+        <date>2023-05-19 15:10:37</date>
+        <sender>MTN MOMO</sender>
+        <content>You have sent GHS 100.00 to CHARITY DONATION (0244555666) on 19/05/23 at 03:10 PM. Reference: TX123456807. Fee charged: GHS 1.00. Available Balance: GHS 750.25</content>
+    </message>
+    <message>
+        <id>20</id>
+        <date>2023-05-20 09:35:48</date>
+        <sender>MTN MOMO</sender>
+        <content>You have received GHS 1500.00 from SALARY PAYMENT (0302987654) on 20/05/23 at 09:35 AM. Reference: TX123456808. Fee charged: GHS 0.00. Available Balance: GHS 2,250.25</content>
+    </message>
+</messages>
