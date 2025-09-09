@@ -1,6 +1,6 @@
-##MoMo Xml Analytics
+## MoMo Xml Analytics
 
-##📝 Project Description
+## 📝 Project Description
 
 This project is an enterprise-level fullstack application that processes MoMo SMS data in XML format, cleans and categorizes transactions, stores them in a relational database (SQLite), and provides a frontend dashboard to analyze and visualize the data.
 
