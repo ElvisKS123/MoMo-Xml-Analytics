@@ -9,7 +9,7 @@ Member 1: Premier Ufitinema
 
 Member 2: KAGABA SHIMWA Elvis
 
-Member 3: Colombe Nyituriki Igihozo
+Member 3: Marie Colombe Nyituriki Igihozo
 
 ## 🏗️ System Architecture
 **High-Level System Architecture Diagram:**
