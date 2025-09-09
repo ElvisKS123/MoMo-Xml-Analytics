@@ -18,7 +18,7 @@ Member 3: Colombe Nyituriki Igihozo
 
 ## 📋 Project Management
 **Scrum Board:**
-link here
+[link here](https://alustudent-team-vshx4yzr.atlassian.net/jira/core/projects/MMMTA/list?direction=ASC&sortBy=key&atlOrigin=eyJpIjoiOWQwMzgzMWJhZTU3NDdiY2FkMmEwYTFhOWQ1NWZjYjgiLCJwIjoiaiJ9)
 #
 
 ## 📁 Project Structure
