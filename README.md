@@ -6,8 +6,19 @@ This project ingests MoMo SMS data (XML), parses and categorizes transactions, l
 
 ## 👥 Team
 Team 21 
+Member 1: Premier Ufitinema
+Member 2: KAGABA SHIMWA Elvis
+Member 3: Colombe Nyituriki Igihozo
 
-(Replace with actual member names if needed.)
+## 🏗️ System Architecture
+**High-Level System Architecture Diagram:**
+🔗 https://drive.google.com/file/d/1vcEXmbKvywyNi8HfH-Zil79VfWpfHRtc/view?usp=sharing
+
+
+## 📋 Project Management
+**Scrum Board:**
+link here
+
 
 ## 🚀 Features
 - ETL pipeline from XML SMS exports to SQLite
@@ -24,38 +35,53 @@ Team 21
 ## 📁 Project Structure
 ```
 .
-├── README.md
-├── requirements.txt
-├── index.html                         # Dashboard entry
-├── start_server.py                    # Convenience launcher for FastAPI
-├── api/
-│   └── app.py                         # FastAPI app (serves /, /web, /data, /api/*)
+├── README.md                         # Setup, run, overview
+├── .env.example                      # DATABASE_URL or path to SQLite
+├── requirements.txt                  # lxml/ElementTree, dateutil, (FastAPI optional)
+├── index.html                        # Dashboard entry (static)
+├── start_server.py                   # Convenience launcher for FastAPI
+├── web/
+│   ├── styles.css                    # Dashboard styling
+│   ├── chart_handler.js              # Fetch + render charts/tables
+│   ├── app.js                        # Frontend application logic
+│   └── assets/                       # Images/icons (optional)
+├── data/
+│   ├── raw/                          # Provided XML input (git-ignored)
+│   │   └── momo.xml
+│   ├── processed/                    # Cleaned/derived outputs for frontend
+│   │   ├── dashboard.json            # Aggregates the dashboard reads
+│   │   └── transactions.db           # SQLite DB file
+│   └── logs/
+│       ├── etl.log                   # Structured ETL logs
+│       └── dead_letter/              # Unparsed/ignored XML snippets
 ├── etl/
-│   └── sms_processor.py               # XML -> DB (+ dashboard JSON) ETL
-├── web/                               # Frontend assets
-│   ├── styles.css
-│   ├── app.js
-│   └── chart_handler.js
+│   ├── __init__.py
+│   ├── config.py                     # File paths, thresholds, categories
+│   ├── parse_xml.py                  # XML parsing (ElementTree/lxml)
+│   ├── clean_normalize.py            # Amounts, dates, phone normalization
+│   ├── categorize.py                 # Simple rules for transaction types
+│   ├── load_db.py                    # Create tables + upsert to SQLite
+│   ├── run.py                        # CLI: parse -> clean -> categorize -> load -> export JSON
+│   └── sms_processor.py              # Legacy monolithic processor (kept for compatibility)
+├── api/                              # Optional (bonus)
+│   ├── __init__.py
+│   ├── app.py                        # FastAPI with /transactions, /analytics
+│   ├── db.py                         # SQLite connection helpers
+│   └── schemas.py                    # Pydantic response models
 ├── scripts/
-│   ├── run.py                         # Run ETL then API (or API only)
+│   ├── run_etl.sh/.ps1               # python -m etl.run --xml data/raw/momo.xml
+│   ├── export_json.sh/.ps1           # Rebuild data/processed/dashboard.json
+│   ├── serve_frontend.sh/.ps1        # python -m uvicorn api.app:app or http.server
+│   ├── run.py                        # Run ETL then API (or API only)
 │   ├── run_tests.py
 │   ├── generate_sample_data.py
 │   └── init_project.py
-├── tests/
-│   ├── test_api.py
-│   └── test_etl.py
-└── data/
-    ├── raw/
-    │   ├── momo.xml
-    │   ├── generated_sms_data.xml
-    │   └── sample_sms_data.xml
-    ├── processed/
-    │   ├── transactions.db
-    │   ├── sample_transactions.db
-    │   └── dashboard.json             # Precomputed dashboard payload used by frontend
-    └── logs/
-        ├── etl.log
-        └── dead_letter/
+└── tests/
+    ├── test_parse_xml.py             # Small unit tests
+    ├── test_clean_normalize.py
+    ├── test_categorize.py
+    ├── test_api.py
+    └── test_etl.py
 ```
 
 ## ⚙️ Setup
