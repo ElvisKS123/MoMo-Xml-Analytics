@@ -6,7 +6,9 @@
 ## 👥 Team
 Team 21 
 Member 1: Premier Ufitinema
+
 Member 2: KAGABA SHIMWA Elvis
+
 Member 3: Colombe Nyituriki Igihozo
 
 ## 🏗️ System Architecture
