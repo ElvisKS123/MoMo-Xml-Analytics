@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "user": {
+      "user_id": 1,
+      "first_name": "Alice",
+      "last_name": "Kay",
+      "category": "sender",
+      "phone": "+250700000001"
+    },
+    "transaction": {
+      "transaction_id": 2,
+      "amount": 25.5,
+      "category": "pay",
+      "time": "2025-09-16T11:00:00Z"
+    },
+    "system_log": {
+      "system_log_id": 1,
+      "user_id": 1,
+      "log": "success",
+      "created_at": "2025-09-16T11:05:00Z"
+    }
+  },
+  "api_examples": {
+    "transaction_with_parties": {
+      "transaction_id": 2,
+      "amount": 25.5,
+      "category": "pay",
+      "time": "2025-09-16T11:00:00Z",
+      "sender": {"user_id": 1, "first_name": "Alice", "phone": "+250700000001"},
+      "receiver": {"user_id": 3, "first_name": "Cida", "phone": "+250700000003"}
+    },
+    "user_with_logs": {
+      "user_id": 1,
+      "first_name": "Alice",
+      "last_name": "Kay",
+      "phone": "+250700000001",
+      "logs": [{"system_log_id": 1, "log": "success"}]
+    }
+  },
+  "mapping": {
+    "users": ["user.user_id","user.first_name","user.last_name","user.category","user.phone"],
+    "transactions": ["transaction.transaction_id","transaction.amount","transaction.category","transaction.time"],
+    "system_logs": ["system_log.system_log_id","system_log.user_id","system_log.log","system_log.created_at"]
+  }
+}

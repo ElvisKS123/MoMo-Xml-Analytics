@@ -17,7 +17,7 @@ Frontend interface (charts + tables)
 Through this project, we will demonstrate our team’s capacity to process and structure raw data, build reliable database systems, and create meaningful visualizations for end users.
 
 ## 📋 Overview
-Team name: Group 21
+Team name: Group 20
 
 Member 1: Premier Ufitinema
 
