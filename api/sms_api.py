@@ -2,6 +2,7 @@ import json
 import base64
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
+from auth import check_auth 
 
 transactions = []
 
