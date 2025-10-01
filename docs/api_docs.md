@@ -162,13 +162,14 @@ Unexpected server errors
 Correct Credentials
 <img width="1601" height="596" alt="image" src="https://github.com/user-attachments/assets/598e35d2-ad61-40a7-948c-2d43a02f2492" />
 
-Wrong credentials
-<img width="1156" height="367" alt="image" src="https://github.com/user-attachments/assets/1d954115-6c1c-4608-9448-defe49f444fd" />
-
 
 Get API
 
 <img width="1680" height="467" alt="image" src="https://github.com/user-attachments/assets/c7c1e16d-cfe3-4e45-bad0-d8c27d291b3b" />
+Wrong credentials
+<img width="1156" height="367" alt="image" src="https://github.com/user-attachments/assets/1d954115-6c1c-4608-9448-defe49f444fd" />
+
+
 
 Post API
 <img width="1169" height="345" alt="image" src="https://github.com/user-attachments/assets/c12eef15-932d-45eb-9565-482913212839" />
