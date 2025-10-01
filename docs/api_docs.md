@@ -158,5 +158,9 @@ Database connection issues
 
 Unexpected server errors
 
+## Testing
+<img width="1601" height="596" alt="image" src="https://github.com/user-attachments/assets/598e35d2-ad61-40a7-948c-2d43a02f2492" />
+
+
 ## Data structures and algolithm 
 <img width="842" height="487" alt="image" src="https://github.com/user-attachments/assets/0e4261d9-e2ed-43ea-b312-7d25e3240bc6" />
